@@ -221,7 +221,7 @@ if uploaded_file is not None:
     st.write("## Classification Results")
 
 
-    result_container = st.contaiiner()
+    result_container = st.container()
     result_container = st.container()
     result_container.markdown(
         f"""
