@@ -276,7 +276,7 @@ if uploaded_file is not None:
 
 
     # Add value labels to the bars
-    for i, prob in enumerate(sorted_probabilities);
+    for i, prob in enumerate(sorted_probabilities):
         fig.add_annotation(
             x=prob,
             y=i,
