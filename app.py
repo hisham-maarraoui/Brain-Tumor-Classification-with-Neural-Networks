@@ -248,7 +248,7 @@ if uploaded_file is not None:
 
 
     # Prepare data for Plotly chart
-    probabilities = predictions[0]
+    probabilities = prediction[0]
     sorted_indices = np.argsort(probabilities)[::-1]
     sorted_labels = [labels[i] for i in sorted_indices]
     sorted_probabilities = probabilities[sorted_indices]
