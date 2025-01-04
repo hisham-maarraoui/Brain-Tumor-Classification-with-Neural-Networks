@@ -12,7 +12,6 @@ from tensorflow.keras.metrics import Precision, Recall
 import google.generativeai as genai
 import PIL.Image
 import os
-from google.colab import userdata
 from dotenv import load_dotenv
 
 load_dotenv()
